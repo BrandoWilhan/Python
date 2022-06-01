@@ -21,8 +21,8 @@ elif(pow(A,2) > pow(B, 2) + pow(C, 2)):
 elif(pow(A,2) < pow(B, 2) + pow(C, 2)):
     print("TRIANGULO ACUTANGULO")
 
-elif(A == B and B == C):
+if(A == B and B == C):
     print("TRIANGULO EQUILATERO")
 
-elif((A == B and C != A) or (B == C and A != B) or (A == C and B != A)):
+if((A == B and C != A) or (B == C and A != B) or (A == C and B != A)):
     print("TRIANGULO ISOCELES")
