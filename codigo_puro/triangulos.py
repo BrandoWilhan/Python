@@ -1,13 +1,13 @@
-lista = [0]
+ 
+lista = []
 
-for x in range(3):
-    lista.append(float(input())) 
-    
-lista.sort(reverse = True)
+lista = input().split(" ")
 
-A = lista[0]
-B = lista[1]
-C = lista[2]
+lista = sorted(lista, key = float, reverse = True)
+
+A = float(lista[0])
+B = float(lista[1])
+C = float(lista[2])
 
 if(A >= B + C):
     print("NAO FORMA TRIANGULO")
