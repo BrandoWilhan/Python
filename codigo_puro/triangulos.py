@@ -1,4 +1,6 @@
  
+#beecrowd 1045 nao aceito, mas faz o que pede
+
 lista = []
 
 lista = input().split(" ")
