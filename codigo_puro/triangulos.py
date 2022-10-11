@@ -29,4 +29,4 @@ if(A == B and B == C):
 if((A == B and C != A) or (B == C and A != B) or (A == C and B != A)):
     print("TRIANGULO ISOCELES")
 
-print("teste git")
+print("teste gi")
